@@ -1,0 +1,60 @@
+- { name: 'Lv1 香港 HKT B1-21', type: trojan, server: dnsb.zz01.cacbce.com, port: 3180, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bhk01.bbprovm.com }
+  - { name: 'Lv1 香港 HKT B2S', type: ssr, server: dnsb.zz01.cacbce.com, port: 3190, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 香港 HKT B3', type: trojan, server: dnsb.zz01.cacbce.com, port: 3200, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bhk03.bbprovm.com }
+  - { name: 'Lv1 香港 HKT B4S', type: ssr, server: dnsb.zz01.cacbce.com, port: 3210, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 香港 HKT B5S', type: ssr, server: dnsb.zz01.cacbce.com, port: 3530, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 日本直连 B1', type: trojan, server: dnsb.zz01.cacbce.com, port: 3220, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bjp01.bbprovm.com }
+  - { name: 'Lv1 日本直连 B2', type: trojan, server: dnsb.zz01.cacbce.com, port: 3280, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bjp02.bbprovm.com }
+  - { name: 'Lv1 日本直连 B3S', type: ssr, server: dnsb.zz01.cacbce.com, port: 2170, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 日本直连 B4S', type: ssr, server: dnsb.zz03.cacbce.com, port: 2940, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 日本直连 B5', type: trojan, server: dnsb.zz01.cacbce.com, port: 2030, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bjp05.bbprovm.com }
+  - { name: 'Lv1 日本直连 B6S', type: ssr, server: dnsb.zz03.cacbce.com, port: 3540, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 日本直连 B7', type: trojan, server: dnsb.zz01.cacbce.com, port: 1400, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bjp07.bbprovm.com }
+  - { name: 'Lv1 台湾 家宽 B1', type: trojan, server: dnsb.zz01.cacbce.com, port: 3240, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: btpe01.bbprovm.com }
+  - { name: 'Lv1 台湾 家宽 B2', type: trojan, server: dnsb.zz03.cacbce.com, port: 3290, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: btpe02.bbprovm.com }
+  - { name: 'Lv1 台湾 家宽 B3S', type: ssr, server: dnsb.zz03.cacbce.com, port: 3420, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 新加坡 解锁 B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3260, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bsg01.bbprovm.com }
+  - { name: 'Lv1 新加坡 解锁 B2S', type: ssr, server: dnsb.zz01.cacbce.com, port: 3270, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 新加坡 解锁 B3', type: trojan, server: dnsb.zz01.cacbce.com, port: 3310, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bsg03.bbprovm.com }
+  - { name: 'Lv1 新加坡 解锁 B4S', type: ssr, server: dnsb.zz01.cacbce.com, port: 3320, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 新加坡 解锁 B5', type: trojan, server: dnsb.zz01.cacbce.com, port: 2530, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bsg05.bbprovm.com }
+  - { name: 'Lv1 美国 高速 B1', type: trojan, server: dnsb.zz01.cacbce.com, port: 3230, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bus01.bbprovm.com }
+  - { name: 'Lv1 美国 高速 B2', type: trojan, server: bzzct01.223555.net, port: 3300, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bus02.bbprovm.com }
+  - { name: 'Lv1 美国 高速 B3S', type: ssr, server: bzzct01.223555.net, port: 1040, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 美国 高速 B4', type: trojan, server: bzzct01.223555.net, port: 2810, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bus04.bbprovm.com }
+  - { name: 'Lv1 美国 高速 B5S', type: ssr, server: bzzct01.223555.net, port: 2790, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv1 美国 高速 B6', type: trojan, server: dnsb.zz01.cacbce.com, port: 2550, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bus06.bbprovm.com }
+  - { name: 'Lv1 韩国 高速 B1', type: trojan, server: dnsb.zz01.cacbce.com, port: 3250, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bkr01.bbprovm.com }
+  - { name: 'Lv1 韩国 高速 B2', type: trojan, server: dnsb.zz01.cacbce.com, port: 1130, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bkr02.bbprovm.com }
+  - { name: 'Lv2 台湾 家宽 B4', type: trojan, server: dnsb.zz03.cacbce.com, port: 3140, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: btpe04.bbprovm.com }
+  - { name: 'Lv2 台湾 家宽 B5', type: trojan, server: dnsb.zz03.cacbce.com, port: 3150, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: btpe05.bbprovm.com }
+  - { name: 'Lv2 俄罗斯 高速S B1', type: ssr, server: bzzct01.223555.net, port: 3440, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv2 俄罗斯 高速S B2', type: ssr, server: bzzct01.223555.net, port: 1020, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv2 澳大利亚 原生ip B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3330, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bau01.bbprovm.com }
+  - { name: 'LV2 德国 高速 B1', type: trojan, server: bzzct01.223555.net, port: 3340, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bde01.bbprovm.com }
+  - { name: 'Lv2 英国 高速 B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3350, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: buk01.bbprovm.com }
+  - { name: 'Lv2 印度 高速S B1', type: ssr, server: dnsb.zz03.cacbce.com, port: 2910, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv2 土耳其 原生IP B1', type: trojan, server: bzzct01.223555.net, port: 3360, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: btr01.bbprovm.com }
+  - { name: 'Lv3 马来西亚 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3390, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bmy01.bbprovm.com }
+  - { name: 'Lv3 印尼 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3400, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bid01.bbprovm.com }
+  - { name: 'Lv3 越南 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3410, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bvn01.bbprovm.com }
+  - { name: 'Lv3 加拿大 原生IP B1', type: trojan, server: bzzct01.223555.net, port: 3370, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bca01.bbprovm.com }
+  - { name: 'Lv3 加拿大 原生IPS B2', type: ssr, server: bzzct01.223555.net, port: 3520, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 英国 原生IP B2', type: trojan, server: bzzct01.223555.net, port: 3380, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: buk02.bbprovm.com }
+  - { name: 'Lv3 菲律宾 原生ip B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3430, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bph01.bbprovm.com }
+  - { name: 'Lv3 泰国 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3450, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bth01.bbprovm.com }
+  - { name: 'Lv3 法国 原生IPS B1', type: ssr, server: dnsb.zz03.cacbce.com, port: 3470, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 爱沙尼亚 原生IPS B1', type: ssr, server: bzzct01.223555.net, port: 3480, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 西班牙 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3490, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bes01.bbprovm.com }
+  - { name: 'Lv3 巴西 原生IPS B1', type: ssr, server: dnsb.zz03.cacbce.com, port: 3460, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 智利 原生IP B1', type: ssr, server: bzzct01.223555.net, port: 2860, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv2 荷兰 高速 B1', type: trojan, server: bzzct01.223555.net, port: 2000, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bnl01.bbprovm.com }
+  - { name: 'Lv3 巴基斯坦 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 3500, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bpk01.bbprovm.com }
+  - { name: 'Lv3 爱尔兰 原生IP B1S', type: ssr, server: bzzct01.223555.net, port: 1280, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 丹麦 原生IP B1', type: trojan, server: dnsb.zz03.cacbce.com, port: 1420, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bdk01.bbprovm.com }
+  - { name: 'Lv3 乌克兰 原生IP B1', type: trojan, server: bzzct01.223555.net, port: 3110, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bua01.bbprovm.com }
+  - { name: 'Lv3 台湾家宽 优化IP B6S', type: ssr, server: dnsb.zz03.cacbce.com, port: 3550, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 台湾家宽 优化IP B7S', type: ssr, server: dnsb.zz03.cacbce.com, port: 3560, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'LV3 德国原生ip B2', type: ssr, server: bzzct01.223555.net, port: 2700, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }
+  - { name: 'Lv3 意大利 原生IP B1', type: trojan, server: bzzct01.223555.net, port: 2500, password: cdfb2985-31c7-516b-b946-6d614518d4a2, sni: bit01.bbprovm.com }
+  - { name: 'Lv3 韩国 游戏专享S B3', type: ssr, server: dnsb.zz03.cacbce.com, port: 1610, cipher: chacha20-ietf, password: ZnuFcHT4, protocol: auth_aes128_sha1, protocol-param: '4691815:gByMfPEs', obfs: plain, obfs-param: a9b8e4691815.microsoft.com, udp: true }

@@ -1,0 +1,287 @@
+deviceName: HT7270202673  # 安卓设备名
+platformVersion: 8.1.0  # 安卓版本号
+host: 127.0.0.1   # appium服务host
+port: 4723        # appium服务port
+vpn_save_path: F:\code\111
+app:
+
+#  - appPackage: com.tube.client # Tube
+#    package: com.tube.client
+#    appActivity:
+#    click_file: com_tube_client
+#    process: com_tube_client
+#    data: com_tube_client
+#    data_type: data
+#    class_name: com.github.shadowsocks.test
+#    type: request
+#
+#  - appPackage: com.balecc.ibale # 番石榴
+#    package: com.balecc.ibale
+#    appActivity:
+#    click_file: com_balecc_ibale
+#    process: com_balecc_ibale
+#    data: com_balecc_ibale
+#    data_type: data
+#    class_name:
+#    type: request
+####
+#  - appPackage: com.bjchuhai # 白鲸
+#    package: com.bjchuhai
+#    appActivity:
+#    click_file: com_bjchuhai
+#    process: com_bjchuhai
+#    data: com_bjchuhai
+#    data_type: data
+#    class_name: com.speed.shadowsocks.ui.main.MainActivity
+#    type: request
+######
+####  - appPackage: com.leaf.and.aleaf # Leaf VPN
+####    package: com.leaf.and.aleaf
+####    appActivity:
+####    click_file: com_leaf_and_aleaf
+####    process: com_leaf_and_aleaf
+####    data: com_leaf_and_aleaf
+####    data_type: data
+####    class_name:
+####    type: request
+########
+###  - appPackage: com.mml.myanmarfontdeveloper.hello # HELLO VPN
+###    package: com.mml.myanmarfontdeveloper.hello
+###    appActivity:
+###    click_file: com_mml_myanmarfontdeveloper_hello
+###    process: com_mml_myanmarfontdeveloper_hello
+###    data: com_mml_myanmarfontdeveloper_hello
+###    data_type: data
+###    class_name:
+###    type: request
+#############
+###  - appPackage: org.rocket # 火箭VPN
+###    package: org.rocket
+###    appActivity: org.rocket.activity.FirstActivity
+###    click_file: org_rocket
+###    process: org_rocket
+###    data: org_rocket
+###    data_type: password
+###    class_name: com.github.shadowsocks.Core
+###    type: request
+##############
+##########  - appPackage: com.keynote.free.android  # keynote
+##########    package: com.keynote.free.android
+##########    appActivity: .main.activity.MainActivity
+##########    click_file: com_keynote_free_android
+##########    process: com_keynote_free_android
+##########    data: com_keynote_free_android
+##########    data_type: data
+##########    class_name: com.github.shadowsocks.database.h
+##########    type: click
+##############
+#  - appPackage: com.leiting.lt401  # 雷霆加速器
+#    package: com.leiting.lt401
+#    appActivity:
+#    click_file: com_leiting_lt401
+#    process: com_leiting_lt401
+#    data: com_leiting_lt401
+#    data_type: data
+#    class_name:
+#    type: request
+##############
+###  - appPackage: com.attoric.vpn.hero  # Hero VPN
+###    package: com.attoric.vpn.hero
+###    appActivity:
+###    click_file: com_attoric_vpn_hero
+###    process: com_attoric_vpn_hero
+###    data: com_attoric_vpn_hero
+###    data_type: data
+###    class_name:
+###    type: request
+################
+#  - appPackage: io.privado.android  # PrivadoVPN
+#    package: io.privado.android
+#    appActivity:
+#    click_file: io_privado_android
+#    process: io_privado_android
+#    data: io_privado_android
+#    data_type: data
+#    class_name:
+#    type: request
+################
+#  - appPackage: com.evpn.app  # 易连VPN
+#    package: com.evpn.app
+#    appActivity:
+#    click_file: com_evpn_app
+#    process: com_evpn_app
+#    data: com_evpn_app
+#    data_type: data
+#    class_name:
+#    type: request
+###############
+#  - appPackage: com.pigcha.pigchaproxy  # pigcha加速器
+#    package: com.pigcha.pigchaproxy
+#    appActivity:
+#    click_file: com_pigcha_pigchaproxy
+#    process: com_pigcha_pigchaproxy
+#    data: com_pigcha_pigchaproxy
+#    data_type: data
+#    class_name:
+#    type: request
+################
+#  - appPackage: com.android.tnaant  # 螞蟻加速器
+#    package: com.android.tnaant
+#    appActivity:
+#    click_file: com_android_tnaant
+#    process: com_android_tnaant
+#    data: com_android_tnaant
+#    data_type: password
+#    class_name:
+#    type: request
+###############
+#  - appPackage: me.xhss.tomvpn  # app包名 TOMVPN
+#    package: me.xhss.tomvpn # 启动frida的进程名
+#    appActivity: .HomeActivity  # app启动页面
+#    click_file: me_xhss_tomvpn # 模拟点击的py文件名
+#    process: me_xhss_tomvpn # 当前app数据处理的文件名
+#    data: me_xhss_tomvpn  # frida hook结果的文件名
+#    data_type: data   # data_type: password可以提取到密码，data无法提取到密码
+#    class_name: me.xhss.tomvpn.TrojanConfig # 需要hook的class name
+#    type: request   # 接口或点击，request为接口，click为点击
+#################
+#################  - appPackage: com.helalik.bluespeed.vpn  # BlueSpeed
+#################    package: com.helalik.bluespeed.vpn
+#################    appActivity:
+#################    click_file: com_helalik_bluespeed_vpn
+#################    process: com_helalik_bluespeed_vpn
+#################    data: com_helalik_bluespeed_vpn
+#################    data_type: data
+#################    class_name:
+#################    type: request
+#################
+#  - appPackage: com.giraffe  # 安易加速器
+#    package: com.giraffe
+#    appActivity: com.speed.shadowsocks.ui.main.MainActivity
+#    click_file: com_giraffe
+#    process: com_giraffe
+#    data: com_giraffe
+#    data_type: data
+#    class_name: com.speed.shadowsocks.biz.HttpConnector
+#    type: request
+##############
+#  - appPackage: com.chetahvpn.android # 猎豹VPN
+#    package: com.chetahvpn.android
+#    appActivity: .modules.main.activity.MainActivity
+#    click_file: com_chetahvpn_android
+#    process: com_chetahvpn_android
+#    data: com_chetahvpn_android
+#    data_type: data
+#    class_name: com.google.gson.internal.LinkedTreeMap$Node
+#    type: request
+#############
+############  - appPackage: com.atomx.veeevpn # Veee
+############    package: com.atomx.veeevpn
+############    appActivity:
+############    click_file: com_atomx_veeevpn
+############    process: com_atomx_veeevpn
+############    data: com_atomx_veeevpn
+############    data_type: data
+############    class_name:
+############    type: request
+##############
+#  - appPackage: com.bananago.now # 香蕉VPN
+#    package: com.bananago.now
+#    appActivity:
+#    click_file: com_bananago_now
+#    process: com_bananago_now
+#    data: com_bananago_now
+#    data_type: data
+#    class_name:
+#    type: request
+############
+#  - appPackage: com.mogu.go # 蘑菇加速器
+#    package: com.mogu.go
+#    appActivity:
+#    click_file: com_mogu_go
+#    process: com_mogu_go
+#    data: com_mogu_go
+#    data_type: password
+#    class_name:
+#    type: request
+#############
+#  - appPackage: com.zg.xhn.google # 小黑牛
+#    package: com.zg.xhn.google
+#    appActivity:
+#    click_file: com_zg_xhn_google
+#    process: com_zg_xhn_google
+#    data: com_zg_xhn_google
+#    data_type: password
+#    class_name:
+#    type: request
+###########
+#  - appPackage: com.aiguo.acgdareturnliapp # 旋风加速器
+#    package: com.aiguo.acgdareturnliapp
+#    appActivity:
+#    click_file: com_aiguo_acgdareturnliapp
+#    process: com_aiguo_acgdareturnliapp
+#    data: com_aiguo_acgdareturnliapp
+#    data_type: data
+#    class_name:
+#    type: request
+###############
+################  - appPackage: com.hidecat.mine # Hidecat
+################    package: com.hidecat.mine:bg
+################    appActivity: com.lightningcn.mine.activity.SplashPageActivity
+################    click_file: com_hidecat_mine
+################    process: com_hidecat_mine
+################    data: com_hidecat_mine
+################    data_type: data
+################    class_name: com.github.shadowsocks.Core
+################    type: click
+###############
+#  - appPackage: com.work.naiyou # 安卓加速器
+#    package: com.work.naiyou:bg
+#    appActivity: com.network.naiyou.ui.activity.WelcomeActivity
+#    click_file: com_work_naiyou
+#    process: com_work_naiyou
+#    data: com_work_naiyou
+#    data_type: data
+#    class_name: com.github.shadowsocks.database.ProfileManager
+#    type: request
+#############
+##  - appPackage: org.redguest  # 极客加速器
+##    package: org.redguest
+##    appActivity: org.suwang.activity.FirstActivity
+##    click_file: org_redguest
+##    process: org_redguest
+##    data: org_redguest
+##    data_type: password
+##    class_name: com.github.shadowsocks.Core
+##    type: request
+###############
+###  - appPackage: co.strongteam.beevpn  # BeeVPN
+###    package: co.strongteam.beevpn
+###    appActivity: sandok.javacodez.vpn.activities.SplashActivity
+###    click_file: co_strongteam_beevpn
+###    process: co_strongteam_beevpn
+###    data: co_strongteam_beevpn
+###    data_type: data
+###    class_name: sandok.javacodez.vpn.service.OpenVPNService
+###    type: request
+###############
+######  - appPackage: com.squirrelvpn # SquirrelVPN
+######    package: com.squirrelvpn
+######    appActivity: com.squirrelvpn.MainActivity
+######    click_file: com_squirrelvpn
+######    process: com_squirrelvpn
+######    data: com_squirrelvpn
+######    data_type: data
+######    class_name: com.gopher.mobile.ProxyService
+######    type: request
+###############
+  - appPackage: octohide.vpn # Octohide VPN
+    package: octohide.vpn
+    appActivity: com.octohide.vpn.MainActivity
+    click_file: octohide_vpn
+    process: octohide_vpn
+    data: octohide_vpn
+    data_type: data
+    class_name: de.blinkt.openvpn.core.OpenVPNService
+    type: request
+

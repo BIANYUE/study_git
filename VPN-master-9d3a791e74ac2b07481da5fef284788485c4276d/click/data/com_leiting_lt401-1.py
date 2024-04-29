@@ -1,0 +1,7 @@
+import base64
+
+i = 'vmess://eyJhZGQiOiIxMDcuMTQ4LjIwOS43MSIsImFpZCI6IjY0IiwiaG9zdCI6Ind3dy42MDEzNjk1Mi54eXoiLCJpZCI6IjZmYjljZjU1LTY3YTctNDNiYi1hOGQyLWE5YzYxZGZlN2Q4MCIsIm5ldCI6IndzIiwicGF0aCI6IlwvcGF0aFwvMDYyMTExMjYyNjAwIiwicG9ydCI6IjMwMDAwIiwicHMiOjM5MywidGxzIjoidGxzIiwidHlwZSI6ImR0bHMiLCJ2IjoiMiJ9'
+
+data = base64.b64decode(i.strip().split("//")[1])
+
+print(data)

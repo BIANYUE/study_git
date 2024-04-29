@@ -1,0 +1,5 @@
+{"servers": [{"host": "167.160.167.60", "port": 25519, "proto": "wireguard"}]}
+{"servers": [{"host": "103.6.74.21", "port": 58579, "proto": "wireguard"}]}
+{"servers": [{"host": "105.112.96.80", "port": 22513, "proto": "wireguard"}]}
+{"servers": [{"host": "146.70.88.169", "port": 40651, "proto": "wireguard"}]}
+{"servers": [{"host": "194.5.10.119", "port": 27994, "proto": "wireguard"}]}
